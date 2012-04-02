@@ -1,2 +1,15 @@
 {% extends 'base.html' %}
-{% block body %}<h1>Hello, {{ name|default('World', boolean=True) }}!</h1>{% endblock %}
+
+
+{% block body %}<h1>Phox ready.</h1>
+
+You should configure your Twilio URLs as follows:
+<br>
+<br>
+
+Voice: http://server.com/voice
+<br>
+SMS:   http://server.com/sms
+
+<br>
+{% endblock %}

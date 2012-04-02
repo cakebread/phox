@@ -1,3 +1,5 @@
+twilio
+twerp
 Flask
 Flask-Script
 Flask-SQLAlchemy
